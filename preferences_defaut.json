@@ -1,0 +1,235 @@
+{
+    "enseignants": {
+        "Fanny": {
+            "hp": "18.0",
+            "hsa": "2.0",
+            "bloc1": "",
+            "bloc2": "",
+            "contrainte_repartition": null,
+            "niveaux": {
+                "6e": {
+                    "max": "",
+                    "fixe": false
+                },
+                "5e": {
+                    "max": "",
+                    "fixe": false
+                },
+                "4e": {
+                    "max": "0",
+                    "fixe": false
+                },
+                "3e": {
+                    "max": "",
+                    "fixe": false
+                }
+            },
+            "nb_niveaux_max": "3",
+            "niveau_souhait": ""
+        },
+        "Agnès": {
+            "hp": "18.0",
+            "hsa": "2.0",
+            "bloc1": "",
+            "bloc2": "",
+            "contrainte_repartition": null,
+            "niveaux": {
+                "6e": {
+                    "max": "",
+                    "fixe": false
+                },
+                "5e": {
+                    "max": "",
+                    "fixe": false
+                },
+                "4e": {
+                    "max": "0",
+                    "fixe": false
+                },
+                "3e": {
+                    "max": "",
+                    "fixe": false
+                }
+            },
+            "nb_niveaux_max": "3",
+            "niveau_souhait": ""
+        },
+        "Hubert": {
+            "hp": "18.0",
+            "hsa": "2.0",
+            "bloc1": "",
+            "bloc2": "",
+            "contrainte_repartition": null,
+            "niveaux": {
+                "6e": {
+                    "max": "",
+                    "fixe": false
+                },
+                "5e": {
+                    "max": "",
+                    "fixe": false
+                },
+                "4e": {
+                    "max": "",
+                    "fixe": false
+                },
+                "3e": {
+                    "max": "",
+                    "fixe": false
+                }
+            },
+            "nb_niveaux_max": "2",
+            "niveau_souhait": "3e"
+        },
+        "Olivier": {
+            "hp": "18.0",
+            "hsa": "2.0",
+            "bloc1": "",
+            "bloc2": "",
+            "contrainte_repartition": null,
+            "niveaux": {
+                "6e": {
+                    "max": "",
+                    "fixe": false
+                },
+                "5e": {
+                    "max": "0",
+                    "fixe": false
+                },
+                "4e": {
+                    "max": "",
+                    "fixe": false
+                },
+                "3e": {
+                    "max": "0",
+                    "fixe": false
+                }
+            },
+            "nb_niveaux_max": "3",
+            "niveau_souhait": ""
+        },
+        "Nelly": {
+            "hp": "18.0",
+            "hsa": "2.0",
+            "bloc1": "9.0",
+            "bloc2": "9.0",
+            "contrainte_repartition": [
+                9.0,
+                9.0
+            ],
+            "niveaux": {
+                "6e": {
+                    "max": "",
+                    "fixe": false
+                },
+                "5e": {
+                    "max": "",
+                    "fixe": false
+                },
+                "4e": {
+                    "max": "",
+                    "fixe": false
+                },
+                "3e": {
+                    "max": "0",
+                    "fixe": false
+                }
+            },
+            "nb_niveaux_max": "3",
+            "niveau_souhait": ""
+        },
+        "Lou": {
+            "hp": "15.0",
+            "hsa": "0.0",
+            "bloc1": "",
+            "bloc2": "",
+            "contrainte_repartition": null,
+            "niveaux": {
+                "6e": {
+                    "max": "",
+                    "fixe": false
+                },
+                "5e": {
+                    "max": "",
+                    "fixe": false
+                },
+                "4e": {
+                    "max": "",
+                    "fixe": false
+                },
+                "3e": {
+                    "max": "",
+                    "fixe": false
+                }
+            },
+            "nb_niveaux_max": "3",
+            "niveau_souhait": "3e"
+        },
+        "Jean": {
+            "hp": "18.0",
+            "hsa": "2.0",
+            "bloc1": "",
+            "bloc2": "",
+            "contrainte_repartition": null,
+            "niveaux": {
+                "6e": {
+                    "max": "",
+                    "fixe": false
+                },
+                "5e": {
+                    "max": "1",
+                    "fixe": false
+                },
+                "4e": {
+                    "max": "2",
+                    "fixe": false
+                },
+                "3e": {
+                    "max": "2",
+                    "fixe": false
+                }
+            },
+            "nb_niveaux_max": "3",
+            "niveau_souhait": ""
+        }
+    },
+    "niveaux": [
+        {
+            "nom": "6e",
+            "heures": 5.5,
+            "groupes": 8,
+            "max_par_enseignant": 3
+        },
+        {
+            "nom": "5e",
+            "heures": 4.0,
+            "groupes": 8,
+            "max_par_enseignant": 3
+        },
+        {
+            "nom": "4e",
+            "heures": 4.0,
+            "groupes": 7,
+            "max_par_enseignant": 3
+        },
+        {
+            "nom": "3e",
+            "heures": 4.0,
+            "groupes": 7,
+            "max_par_enseignant": 2
+        }
+    ],
+    "nb_niveaux_max_global": 3,
+    "version": "2.0",
+    "enseignants_liste": [
+        "Fanny",
+        "Agnès",
+        "Hubert",
+        "Olivier",
+        "Nelly",
+        "Lou",
+        "Jean"
+    ],
+    "etablissement": "Collège La Boétie",
+    "matiere": "Mathématiques"
+}

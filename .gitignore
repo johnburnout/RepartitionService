@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Fichiers de logs
+*.log
+
+# Fichiers sensibles
+.env
+*.pem
+*.key
+
+# Export temporaire
+export/
+temp/
+tmp/
+
+# Fichiers de build
+dist/
+build/
+*.egg-info/
